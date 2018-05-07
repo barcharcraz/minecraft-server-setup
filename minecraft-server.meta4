@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <published>2018-05-07T16+00:00</published>
+  <file name="server.jar">
+    <size>30222121</size>
+    <identity>minecraft server</identity>
+    <version>1.12.2</version>
+    <hash type="sha-256">fe1f9274e6dad9191bf6e6e8e36ee6ebc737f373603df0946aafcded0d53167e</hash>
+    <url>https://launcher.mojang.com/mc/game/1.12.2/server/886945bfb2b978778c3a0288fd7fab09d315b25f/server.jar</url>
+  </file>
+</metalink>

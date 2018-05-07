@@ -1,0 +1,15 @@
+[Unit]
+Description=run a minecraft server
+[Install]
+WantedBy=default.target
+
+[Service]
+#User=minecraft
+#Group=minecraft
+ReadWritePaths=%S/minecraft
+WorkingDirectory=%S/minecraft
+StateDirectory=minecraft
+NoNewPrivileges=yes
+ProtectHome=yes
+ProtectSystem=strict
+ExecStart=/usr/bin/java -Xmx1024M -Xms1024M -jar server.jar nogui
